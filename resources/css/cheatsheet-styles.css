@@ -1,15 +1,15 @@
 @font-face {
     font-family: Amaranth;
-    src: url(./resources/styles/Amaranth/Amaranth-Bold.ttf);
-    src: url(./resources/styles/Amaranth/Amaranth-BoldItalic.ttf);
-    src: url(./resources/styles/Amaranth/Amaranth-Italic.ttf);
-    src: url(./resources/styles/Amaranth/Amaranth-Regular.ttf)
+    src: url(../styles/Amaranth/Amaranth-Bold.ttf);
+    src: url(../styles/Amaranth/Amaranth-BoldItalic.ttf);
+    src: url(../styles/Amaranth/Amaranth-Italic.ttf);
+    src: url(../styles/Amaranth/Amaranth-Regular.ttf)
 }
 
 @font-face {
     font-family: Noto Sans;
-    src: url(./resources/styles/Noto_Sans/NotoSans-Italic-VariableFont_wdth\,wght.ttf);
-    src: url(./resources/styles/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
+    src: url(../styles/Noto_Sans/NotoSans-Italic-VariableFont_wdth\,wght.ttf);
+    src: url(../styles/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
 }
 
 h1 {
