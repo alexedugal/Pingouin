@@ -1,15 +1,15 @@
 @font-face {
     font-family: Amaranth;
-    src: url(/cheatsheet/resources/styles/Amaranth/Amaranth-Bold.ttf);
-    src: url(/cheatsheet/resources/styles/Amaranth/Amaranth-BoldItalic.ttf);
-    src: url(/cheatsheet/resources/styles/Amaranth/Amaranth-Italic.ttf);
-    src: url(/cheatsheet/resources/styles/Amaranth/Amaranth-Regular.ttf)
+    src: url(./cheatsheet/resources/styles/Amaranth/Amaranth-Bold.ttf);
+    src: url(./cheatsheet/resources/styles/Amaranth/Amaranth-BoldItalic.ttf);
+    src: url(./cheatsheet/resources/styles/Amaranth/Amaranth-Italic.ttf);
+    src: url(./cheatsheet/resources/styles/Amaranth/Amaranth-Regular.ttf)
 }
 
 @font-face {
     font-family: Noto Sans;
-    src: url(/cheatsheet/resources/styles/Noto_Sans/NotoSans-Italic-VariableFont_wdth\,wght.ttf);
-    src: url(/cheatsheet/resources/styles/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
+    src: url(./cheatsheet/resources/styles/Noto_Sans/NotoSans-Italic-VariableFont_wdth\,wght.ttf);
+    src: url(./cheatsheet/resources/styles/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
 }
 
 h1 {
