@@ -42,12 +42,13 @@ nav {
 }
 
 body {
-    background-color: #dc143c;
+    background-color:#A52A2A;
     background-image: url("../media/dark-exa.png");
 }
 
 section {
     padding: 40px 120px;
+    scroll-margin-top: 80px;
 }
 
 main {
@@ -62,6 +63,7 @@ h1 {
     color:#000000;
 }
 
+
 h2 {
     font-family: Amaranth, Arial, sans-serif;
     text-align: center;
@@ -72,7 +74,7 @@ h2 {
 
 .title {
     width: 100%;
-    background-color: #A52A2A;
+    background-color: #DC143C;
     padding: 20px 0;
 }
 
@@ -89,7 +91,6 @@ ul li {
     width: 100%;
 }
 
-/* Nav links default style */
 nav ul li a {
     color: #DC143C;
     text-decoration: none;
@@ -97,8 +98,42 @@ nav ul li a {
     transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
-/* Hover effect for Nav links */
 nav ul li a:hover {
     color: #505050; /* Change to desired hover color */
 }
 
+p {
+    color: var(--text-dim-gray); /* Dim gray for body text */
+    font-size: 1.1em;
+    line-height: 1.6;
+    background-color:#1C1C1C; /* Charcoal background */
+    padding: 15px;
+    margin: 15px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Removes spacing between cells for a clean look */
+    background-color: var(--background-charcoal); /* Dark gray background */
+    color: var(--text-dim-gray); /* Dim gray for text */
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid var(--heading-dark-gray); /* Dark gray borders for cells */
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: normal; /* Default weight */
+}
+
+/* First Column Bolder */
+table th:first-child, table td:first-child {
+    font-weight: bold;
+    color: var(--primary-crimson); /* Crimson for contrast */
+}
+
+/* Header Row Styling */
+table thead th {
+    background-color:#000000;
+    color: white; /* White text for readability */
+}
