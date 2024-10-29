@@ -7,11 +7,20 @@
     <link rel="stylesheet" href="./resources/css/cheatsheet-styles.css">
 </head>
     <body>
-
-        <h1>HTML Cheat Sheet</h1>
-    
+        <header>
+        <nav>
+            <ul>
+                <li><a href="#main-root">Main Root</a></li>
+                <li><a href="#metadata">Document Metadata</a></li>
+                <li><a href="#sectioning">Sectioning Root</a></li>
+                <li><a href="#content-sectioning">Content Sectioningt</a></li>
+            </ul>
+        </nav>        
+        </header>
+    <main class="centered">
+        <h1 class="title">HTML Cheat Sheet</h1>
         <!-- Main Root -->
-        <section>
+        <section id="main-root">
             <h2>Main Root</h2>
             <table>
                 <thead>
@@ -30,7 +39,7 @@
         </section>
     
         <!-- Document Metadata -->
-        <section>
+        <section id="metadata">
             <h2>Document Metadata</h2>
             <p>Metadata contains information about the page, such as styles, scripts, and data to help software (search engines, browsers, etc.) use and render the page. Styles and scripts may be defined in the page or linked to another file.</p>
             <table>
@@ -70,7 +79,7 @@
         </section>
     
         <!-- Sectioning Root -->
-        <section>
+        <section id="sectioning">
             <h2>Sectioning Root</h2>
             <table>
                 <thead>
@@ -89,7 +98,7 @@
         </section>
     
         <!-- Content Sectioning -->
-        <section>
+        <section id="content-sectioning">
             <h2>Content Sectioning</h2>
             <p>Content sectioning elements allow you to organize document content into logical sections.</p>
             <table>
@@ -147,5 +156,6 @@
                 </tbody>
             </table>
         </section>
+    </main>
 </body>
 </html>
