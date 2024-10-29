@@ -12,20 +12,46 @@
     src: url(../styles/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
 }
 
+/* Main Colors */
+:root {
+    --primary-crimson: #DC143C;
+    --secondary-dark-red: #A52A2A;
+    --text-dim-gray: #696969;
+    --heading-dark-gray: #505050;
+    --background-charcoal: #2F2F2F;
+    --background-almost-black: #1C1C1C;
+    --pure-black: #000000;
+}
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
 nav {
     font-family: 'Noto Sans', sans-serif ;
-    background-color: black;
+    background-color: #1C1C1C;
+    opacity: 100%;
     position: fixed;
     width: 100%;
     padding: 25px 0;
+    z-index: 10;
 }
 
 body {
-    background-color: dimgray;
+    background-color: #dc143c;
+    background-image: url("../media/dark-exa.png");
+}
+
+section {
+    padding: 40px 120px;
 }
 
 main {
-    padding-top: 25px;
+    padding-top: 72px;
     position: relative;
 }
 
@@ -33,16 +59,21 @@ h1 {
     font-family: Amaranth, Arial, sans-serif;
     font-weight: bolder;
     text-align: center;
-    color: whitesmoke;
-    margin-top: 200px;
-    box-sizing: border-box;
+    color:#000000;
+}
+
+h2 {
+    font-family: Amaranth, Arial, sans-serif;
+    text-align: center;
+    color:#DC143C;
+    background-color: #2F2F2F;
+    padding: 10px 0px;
 }
 
 .title {
     width: 100%;
-    background-color: darkred;
+    background-color: #A52A2A;
     padding: 20px 0;
-    margin: 0;
 }
 
 ul {
@@ -53,3 +84,21 @@ ul li {
     display: inline-block;
     margin: 0 20px;
 }
+
+.centered {
+    width: 100%;
+}
+
+/* Nav links default style */
+nav ul li a {
+    color: #DC143C;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for Nav links */
+nav ul li a:hover {
+    color: #505050; /* Change to desired hover color */
+}
+
